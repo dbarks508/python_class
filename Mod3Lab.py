@@ -1,3 +1,4 @@
+
 class Vehicle():
     def __init__(self, type):
         self.type = type
@@ -20,8 +21,8 @@ myMake = input('Make: ')
 myModel = input('Model: ')
 myDoors = input('Number of doors: ')
 myRoof = input('Style of roof(open/closed): ')
-#transport = Automobile(myType, myYear, myMake, myModel, myDoors, myRoof)
-#transport.showDetails()
+transport = Vehicle(myType, myYear, myMake, myModel, myDoors, myRoof)
+transport.showDetails()
 
 
  
